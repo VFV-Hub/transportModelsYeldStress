@@ -1,0 +1,9 @@
+viscosityModels/viscosityModel/viscosityModelYeldStress.C
+viscosityModels/viscosityModel/viscosityModelNewYeldStress.C
+viscosityModels/strainRateFunction/strainRateFunction.C
+viscosityModels/turnOnPlasticityYeldStress/turnOnPlasticityYeldStress.C
+
+transportModel/transportModelYeldStress.C
+singlePhaseTransportModel/singlePhaseTransportModelYeldStress.C
+
+LIB = $(FOAM_USER_LIBBIN)/libuserincompressibleTransportModelsYeldStress
